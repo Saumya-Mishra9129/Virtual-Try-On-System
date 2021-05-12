@@ -1,0 +1,7 @@
+# https://docs.netlify.com/routing/redirects/rewrites-proxies
+
+# API proxy
+# Netlify timesout after 26 seconds for API proxy... so bad, changed to use CORS instead
+
+# for SPA
+/*    /index.html   200
